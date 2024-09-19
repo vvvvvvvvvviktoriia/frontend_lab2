@@ -1,0 +1,110 @@
+body {
+    overflow-x: hidden;
+}
+
+.picture {
+    margin: 40px;
+}
+
+.circle1 {
+    position: absolute;
+    margin: 20px;
+    background: black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.circle2 {
+    position: absolute;
+    margin: 55px;
+    background: white;
+    z-index: 100;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+}
+
+.circle3 {
+    position: absolute;
+    margin: 82px;
+    background: black;
+    z-index: 200;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
+
+.rectangle1{
+    position: absolute;
+    z-index: 150;
+    background: black;
+    height: 240px;
+    width: 12px;
+    margin-left: 115px;
+    margin-top: 0px;
+}
+
+.rectangle2{
+    position: absolute;
+    z-index: 150;
+    background: black;
+    height: 12px;
+    width: 240px;
+    margin-left: 0px;
+    margin-top: 115px;
+}
+
+.transformed-picture {
+    margin: 40px;
+    transform: translate(350px, 15px);
+
+}
+
+.transformed-circle1 {
+    position: absolute;
+    background: black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    transform: translateX(0px);
+}
+
+.transformed-circle2 {
+    position: absolute;
+    background: white;
+    z-index: 100;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    transform: translate(35px, 35px);
+}
+
+.transformed-circle3 {
+    position: absolute;
+    background: black;
+    z-index: 200;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    transform: translate(62px, 62px);
+}
+
+.transformed-rectangle1 {
+    position: absolute;
+    z-index: 150;
+    background: black;
+    height: 240px;
+    width: 12px;
+    transform: translate(95px, -20px) rotate(0deg);
+}
+
+.transformed-rectangle2 {
+    position: absolute;
+    z-index: 150;
+    background: black;
+    height: 12px;
+    width: 240px;
+    transform: translate(-20px, 100px) rotate(0deg);
+}
+
